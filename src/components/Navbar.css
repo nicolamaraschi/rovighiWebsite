@@ -1,0 +1,87 @@
+/* Stili base della navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  /* Stile del logo */
+  .navbar-logo {
+    flex: 0 0 auto;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  /* Stili dei link della navbar */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    transition: max-height 0.3s ease;
+    max-height: 100px; /* Imposta un'altezza sufficiente per mostrare i link su schermi più grandi */
+  }
+  
+  .navbar-links.active {
+    max-height: 500px; /* Adatta l'altezza massima per mostrare il menu */
+  }
+  
+  .navbar-links li {
+    margin: 0 15px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar-links a:hover {
+    color: #007bff;
+  }
+  
+  /* Stile dell'icona hamburger */
+  .navbar-menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .navbar-menu-icon-bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  
+  /* Media query per schermi più piccoli */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-height: 0; /* Nascondi i link per impostazione predefinita */
+      overflow: hidden;
+    }
+  
+    .navbar-links.active {
+      max-height: 500px; /* Mostra i link quando l'icona hamburger è cliccata */
+    }
+  
+    .navbar-menu-icon {
+      display: flex;
+    }
+  }
+  

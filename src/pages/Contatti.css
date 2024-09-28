@@ -1,0 +1,95 @@
+.contatti-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 15px;
+  }
+  
+  .info {
+    margin-bottom: 40px;
+  }
+  
+  .info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .info a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .map-container {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .map-container .leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .contact-form {
+    margin-top: 40px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #27ae60;
+  }
+  
+  @media (max-width: 768px) {
+    .map-container {
+      height: 300px;
+    }
+  
+    .box {
+      padding: 10px;
+    }
+  }
+  

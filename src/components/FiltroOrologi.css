@@ -1,0 +1,88 @@
+.filtro-orologi {
+    width: 100%;
+    max-width: 500px; /* Compatto per un layout pulito */
+    margin-bottom: 20px;
+    padding: 15px; /* Margini ridotti per un look più compatto */
+    border: 1px solid #e0e0e0; /* Sottile bordo per definizione */
+    border-radius: 10px; /* Bordo arrotondato per un effetto moderno */
+    background-color: #ffffff; /* Bianco puro per un look minimalista */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera per profondità */
+    font-family: 'Poppins', sans-serif; /* Font elegante */
+  }
+  
+  .filter-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; /* Allinea verticalmente label e input */
+  }
+  
+  .filter-group label {
+    flex: 0 0 150px; /* Etichette più compatte */
+    font-weight: bold;
+    color: #000000; /* Nero per le etichette */
+    font-size: 14px;
+  }
+  
+  .filter-group input,
+  .filter-group select {
+    flex: 1; /* Input e select occupano il resto dello spazio */
+    padding: 8px;
+    border: 1px solid #ced4da; /* Bordo grigio chiaro per input */
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f8f9fa; /* Sfondo grigio chiaro per input */
+    transition: all 0.3s ease;
+  }
+  
+  .filter-group input:focus,
+  .filter-group select:focus {
+    border-color: #000000; /* Nero per il bordo al focus */
+    background-color: #ffffff; /* Sfondo bianco puro al focus */
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #000000; /* Pulsante nero */
+    color: #ffffff; /* Testo bianco */
+    border: none;
+    border-radius: 30px; /* Bordo arrotondato per un aspetto morbido */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333333; /* Nero più chiaro per effetto hover */
+    transform: translateY(-2px); /* Sollevamento per interattività */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Leggero effetto di ridimensionamento al click */
+  }
+  
+  /* Emote accanto alle label */
+  .filter-group label::before {
+    content: '🔍 '; /* Aggiunta di un'icona di ricerca prima delle etichette */
+    font-size: 16px;
+  }
+  
+  /* Responsività */
+  @media (max-width: 768px) {
+    .filtro-orologi {
+      max-width: 100%; /* Filtro a tutta larghezza su dispositivi mobili */
+    }
+  
+    .filter-group {
+      flex-direction: column; /* Filtro verticale su schermi piccoli */
+      align-items: flex-start;
+    }
+  
+    .filter-group label {
+      margin-bottom: 8px;
+      flex: 1;
+    }
+  }
+  

@@ -1,0 +1,95 @@
+.footer {
+    background-color: #f8f9fa; /* Colore della navbar */
+    color: #333; /* Colore del testo */
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    position: relative; /* Imposta la posizione relativa */
+    bottom: 0;
+    width: 100%;
+    position: relative; /* Imposta la posizione relativa */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Assicura che gli elementi siano distribuiti in modo uniforme */
+    align-items: flex-start; /* Allinea gli elementi in alto */
+    max-width: 1200px; /* Limita la larghezza massima del footer */
+    margin: 0 auto; /* Centra il footer */
+  }
+  
+  .footer-logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .footer-links, .footer-contact, .footer-social {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links h3, .footer-contact h3, .footer-social h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-links ul, .footer-contact p, .footer-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1em;
+  }
+  
+  .footer-links ul li, .footer-social ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a, .footer-social a {
+    color: #333; /* Colore del testo */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover, .footer-social a:hover {
+    color: #007bff;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact a {
+    color: #333; /* Colore del testo */
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-logo {
+      margin-bottom: 20px;
+    }
+  
+    .footer-links, .footer-contact, .footer-social {
+      max-width: 100%; /* Occupano il 100% dello spazio disponibile su schermi piccoli */
+      margin-bottom: 20px;
+    }
+  }
+  
