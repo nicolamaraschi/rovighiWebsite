@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importa Link da React Router
 import './Footer.css'; // Assicurati di avere il CSS aggiornato per il footer
 
 const Footer = () => {
@@ -6,15 +7,16 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-        <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="Logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="Logo" />
         </div>
         <div className="footer-links">
           <h3>🔗 Navigazione</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/servizi">Servizi</a></li>
-            <li><a href="/orologi">Orologi</a></li>
-            <li><a href="/contatti">Contatti</a></li>
+            {/* Utilizza Link di React Router per gestire la navigazione interna */}
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/ecommerce">Eccommerce</Link></li>
+            <li><Link to="/servizi">Servizi</Link></li>
+            <li><Link to="/contatti">Contatti</Link></li>
           </ul>
         </div>
         <div className="footer-contact">
@@ -27,9 +29,9 @@ const Footer = () => {
         <div className="footer-social">
           <h3>🌐 Seguici</h3>
           <ul>
-            <li><a href="https://www.facebook.com/YourPage" aria-label="Facebook">Facebook</a></li>
+            <li><a href="https://www.facebook.com/OrologeriaRovighiSas/?locale=it_IT" aria-label="Facebook">Facebook</a></li>
             <li><a href="https://twitter.com/YourProfile" aria-label="Twitter">Twitter</a></li>
-            <li><a href="https://www.instagram.com/YourProfile" aria-label="Instagram">Instagram</a></li>
+            <li><a href="https://www.instagram.com/orologeria_rovighi/?hl=en" aria-label="Instagram">Instagram</a></li>
           </ul>
         </div>
       </div>
