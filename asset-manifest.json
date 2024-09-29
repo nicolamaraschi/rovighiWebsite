@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/rovighiWebsite/static/css/main.2677f116.css",
-    "main.js": "/rovighiWebsite/static/js/main.d52f1da4.js",
+    "main.js": "/rovighiWebsite/static/js/main.5f834961.js",
     "static/media/slick.svg": "/rovighiWebsite/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/rovighiWebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/rovighiWebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/rovighiWebsite/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/rovighiWebsite/index.html",
     "main.2677f116.css.map": "/rovighiWebsite/static/css/main.2677f116.css.map",
-    "main.d52f1da4.js.map": "/rovighiWebsite/static/js/main.d52f1da4.js.map"
+    "main.5f834961.js.map": "/rovighiWebsite/static/js/main.5f834961.js.map"
   },
   "entrypoints": [
     "static/css/main.2677f116.css",
-    "static/js/main.d52f1da4.js"
+    "static/js/main.5f834961.js"
   ]
 }
