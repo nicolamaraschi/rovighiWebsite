@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <Link to="/">
-          <img src="/logo2.png" alt="Logo" />
+          <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="Logo" />
         </Link>
       </div>
       <div className="navbar-menu-icon" onClick={toggleMenu}>

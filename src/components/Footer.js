@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <img src="/logo2.png" alt="Logo AR Rovighi" />
+        <img src={`${process.env.PUBLIC_URL}/logo2.png`} alt="Logo" />
         </div>
         <div className="footer-links">
           <h3>🔗 Navigazione</h3>

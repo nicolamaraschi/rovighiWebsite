@@ -5,27 +5,27 @@ const serviziList = [
   {
     title: 'Vendita di Orologi Rinomati',
     description: 'CITIZEN, CASIO, VAGARY, MONDAINE, SEIKO, BULOVA.',
-    imageUrl: '/vendita.jpeg'  // Path aggiornato per la cartella public
+    imageUrl: `${process.env.PUBLIC_URL}/vendita.jpeg`  // Path aggiornato per la cartella public
   },
   {
     title: 'Assistenza Qualificata',
     description: 'Sostituzione o revisione movimenti al quarzo, revisione automatici e meccanici (Rolex, Cartier, Omega, Jaeger Le-Coultre e altri marchi di alta gamma).',
-    imageUrl: '/assistenza.jpeg'  // Path aggiornato per la cartella public
+    imageUrl: `${process.env.PUBLIC_URL}/assistenza.jpeg`  // Path aggiornato per la cartella public
   },
   {
     title: 'Cinturini e Bracciali',
     description: 'Vasta gamma di cinturini Morellato e artigianali italiani in pelle e bracciali in acciaio.',
-    imageUrl: '/cinturino.jpg'  // Path aggiornato per la cartella public
+    imageUrl: `${process.env.PUBLIC_URL}/cinturino.jpg`  // Path aggiornato per la cartella public
   },
   {
     title: 'Gioielleria in Argento',
     description: 'Vendita gioielleria in argento 925 NOMISSIMO.',
-    imageUrl: '/silver.jpeg'  // Path aggiornato per la cartella public
+    imageUrl: `${process.env.PUBLIC_URL}/silver.jpeg`  // Path aggiornato per la cartella public
   },
   {
     title: 'Cambio Pile e Impermeabilità',
     description: 'Vendita e cambio di pile alta qualità Maxell con prova impermeabilità.',
-    imageUrl: '/pila.jpeg'  // Path aggiornato per la cartella public
+    imageUrl: `${process.env.PUBLIC_URL}/pila.jpeg`  // Path aggiornato per la cartella public
   }
 ];
 
