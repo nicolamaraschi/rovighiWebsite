@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <img src={`${process.env.PUBLIC_URL}/logo.webp`} alt="AR Rovighi logo" className="home-image" />
+      <img src={`${process.env.PUBLIC_URL}/logo3.png`} alt="AR Rovighi logo" className="home-image" />
       <div className="home-content">
         <h1 className="home-title">AR Rovighi Milano</h1>
         <p className="home-text">

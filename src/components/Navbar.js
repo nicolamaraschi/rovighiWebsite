@@ -22,13 +22,10 @@ const Navbar = () => {
         <span className="navbar-menu-icon-bar"></span>
       </div>
       <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/ecommerce">Ecommerce</Link></li>
-        <li><Link to="/servizi">Servizi</Link></li>
-        {/*
-        <li><Link to="/orologi">Orologi</Link></li>
-        */}
-        <li><Link to="/contatti">Contatti</Link></li>
+        <li><Link to="/">🏠 Home</Link></li>
+        <li><Link to="/ecommerce">🛒 Ecommerce</Link></li>
+        <li><Link to="/servizi">🛠️ Servizi</Link></li>
+        <li><Link to="/contatti">📞 Contatti</Link></li>
       </ul>
     </nav>
   );
