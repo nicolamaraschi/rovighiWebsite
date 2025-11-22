@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
         <li><Link to="/">🏠 Home</Link></li>
-        <li><Link to="/ecommerce">🛒 Ecommerce</Link></li>
+        <li><a href="https://www.orologeriarovighi.com/webstore" target="_blank" rel="noopener noreferrer">🛒 Ecommerce</a></li>
         <li><Link to="/servizi">🛠️ Servizi</Link></li>
         <li><Link to="/contatti">📞 Contatti</Link></li>
       </ul>

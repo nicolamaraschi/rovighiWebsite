@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Servizi from './pages/Servizi';
 import Orologi from './pages/Orologi';
 import Contatti from './pages/Contatti';
-import Ecommerce from './pages/Ecommerce'; 
+
 import './App.css';
 import "slick-carousel/slick/slick.css"; // Importa il CSS di slick-carousel
 import "slick-carousel/slick/slick-theme.css"; // Importa il tema di slick-carousel
@@ -25,7 +25,7 @@ function App() {
           <Route path="/servizi" element={<Servizi />} />
           <Route path="/orologi" element={<Orologi />} />
           <Route path="/contatti" element={<Contatti />} />
-          <Route path="/ecommerce" element={<Ecommerce />} />  
+
           {/* Reindirizzamento da qualsiasi percorso sconosciuto alla home */}
           <Route path="*" element={<Navigate to="/home" replace />} />
         </Routes>

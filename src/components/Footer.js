@@ -14,7 +14,7 @@ const Footer = () => {
           <ul>
             {/* Utilizza Link di React Router per gestire la navigazione interna */}
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/ecommerce">Eccommerce</Link></li>
+            <li><a href="https://www.orologeriarovighi.com/webstore" target="_blank" rel="noopener noreferrer">Eccommerce</a></li>
             <li><Link to="/servizi">Servizi</Link></li>
             <li><Link to="/contatti">Contatti</Link></li>
           </ul>
