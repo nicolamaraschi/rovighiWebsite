@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "homepage": "https://nicolamaraschi.github.io/rovighiWebsite",
   "dependencies": {
     "leaflet": "^1.9.4",
     "lodash": "^4.17.21",
